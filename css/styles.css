@@ -632,3 +632,7 @@ button:hover {
  #dangky{
     margin-left: 10px;
  }
+ .text-danger{
+    color: red;
+    font-size: 15px;
+ }

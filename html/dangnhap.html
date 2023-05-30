@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Đăng Nhập</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/slideshow.css">
@@ -30,8 +30,8 @@
                     <li><a href="./sanPhamHot.html">SẢN PHẨM HOT</a></li>
                     <li><a href="">SALE</a></li>
                     <li><a href="./dongHoNu.html">ĐỒNG HỒ NỮ</a></li>
-                    <li><a href="">ĐỒNG HỒ NAM</a></li>
-                    <li><a href="">BRANDS </a></li>
+                    <li><a href="./dongHoNam.html">ĐỒNG HỒ NAM</a></li>
+                    <li><a href="./brand.html">BRANDS </a></li>
                     <li><a href="">LIÊN HỆ</a></li>
                     <li><a style="border-right: none;" href="">GIỚI THIỆU</a></li>
                 </ul>
@@ -45,9 +45,11 @@
                   <h1>ĐĂNG NHẬP</h1>
                   <hr>
                  <label for="email"><b>Username</b></label>
-                  <input type="text" placeholder="sieunhan123" name="email" required>
+                  <input type="text" placeholder="sieunhan123" name="uSer" required id="uSer">
+                  <span class="text-danger" id="errUser">*</span> <br>
                  <label for="psw"><b>Mật Khẩu</b></label>
-                  <input type="password" placeholder="Nhập Mật Khẩu" name="psw" required>
+                  <input type="password" placeholder="Nhập Mật Khẩu" name="psw" required id="pass">
+                  <span class="text-danger" id="errUser">*</span> <br>
                  Bạn chưa có tài khoản ?  <a href="./dangky.html">Đăng ký ngay</a>
                   </label>
                  <div class="clearfix">
@@ -106,4 +108,7 @@
                 </footer>
             </div>
     </div>
+    <script src="../library/jquery/jquery-3.6.4.min.js"></script>
+
+    <script src="../js/dangnhap.js"></script>
 </body>
